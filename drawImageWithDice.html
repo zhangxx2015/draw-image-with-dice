@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h4>draw image with dice</h4>
+<img id="img1" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAIAAADZrBkAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEgSURBVDhPpZE7ioVAEEX94AcxNjc2M3MXxpq5ARfgFkxNxEW4CDdiLIgGgozgzO2uejq08JjPCaTq9r3V9fpppmnquq69QP0GwzCo0FABDkno4D3C98cY7fkr/hHDkqjo+0PuGIEaQPQ8z7ZtLGJZljAp4ADHHJKgzfO867q2bdM0RZ4GqbD9RZZl0zSd57mu6ziOSZL4vg+d3d+hAFHX9XEc+75/Sqqqgsi+C1pA/iKmaZpt2z4ky7KUZQmD4zg0lLhjaGTKiON4GAYsOc9z3/dBEECEhwKEeBLlNihRFBVFgYcJwxAtvQonJGKGEiPFdV1pECugBdQSosc8VBQAaC9IeSJmKP8bJyQsPRC3XfcQnJCw9OBe8oICBEsKuv4FIn1CzVHys7QAAAAASUVORK5CYII=" />
+<img id="img2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAATCAIAAAAf7rriAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIfSURBVDhPXZO5zqlRFIbN83RiOhXRiKHRUqpFJaFR4QJocAMSlUQnWo27UIhbUJGISkM0xBDOsy3n+/3eYn9rete7h/XpLBaLXq83Go0YVquVVfcChsFgwLDb7Rhut9tsNvt8PpvNRtDr9RLXkfB4PITgE9W6aC4pXGzIrChBc7lcfr9fORKlgkZUa6CCLPFEIlGr1VqtViqVcjgcWutv8iefILsolUqr1ep+v+/3++l0msvl2AusH7IofCkTTyaT/X7/crk8n8/b7bbb7ZrNJuJvyU8yBBEX0DoSiQyHw8fjAfl8Pm82m06nw5mppF6JY0FWWr/JuFxypVJZr9eQj8fjfD7P5/Mos/P3u8D8JIsLVO71KsVisdfrdbvdcrlM/BcZmEwmkXpJvvm4nAhQHQwG1du8QAFB+OK+xYUpwCUuRWJLmaz0VUNCGl80MWQFVAjYHvg6EVAXxoeo5FiFxikwNAICYmtQbNmO0+nMZrPcKojFYtICUKTxX5QfAygy6Wq1OpvNeMbtdjsajdLpNFuSP+FLUIPEdUhBuF6vvCRYLpf1el0uQk4r1aLJKoCsLiwej08mE5khVsTb7Tay/GpUCB/jTfoPSan2jUbjcDicTidmaLFYZDIZZBGXacfg/mSfIq71UheDOFsdj8eDwaBQKEiOOIYMPHyhAQwiigYCgUAoFIpGo7QA4XCYeWSeAIP19wVq/nwAlzK/3/8PmXmOw0UkcCkAAAAASUVORK5CYII=" />
+<img id="img3" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAIAAAAS8MqlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAIjSURBVDhPhVJLy2lhFN6I47pdv+Q+QbmFTIyIMpBkwNAPMDAw8G9kLlNJkpKIImQiTPgJBm4J53n369SX7zjnGbx777XX8671PGsxJpPp6wMMBoNOp1Or1V6vV6vVWiwWs9msUqmsVisjEon4H8AwjFgsxikUCnEiIhAIeDyeUqlk8EDoE5AHDurE43GbzYYaiCgUCvIPzL8CBJZlS6XSZDLZbredTiefzyMfwY8cABkej6fX610ul+v1ejweW62Wy+WC4H/RUC0Siez3++fzeb/fz+fzYrFIJpNyufw/1cLh8Gg0AgdMoNvtOp1OjUZD/PkOopVhHA5HKpWy2+0wLZvN1uv1drtdrVbxjr+kyVf6NxQKhfF4jH4Gg0Eul0Or8DAUCgUCAcwDn3q9/p2GyQ6HQ/RzOp0Oh0Oz2YQSiUSCExzaOUb/TovFYqvVCtZR96bTqdvtplKxN+CAjMUiG4AJEkEcfD4frXa73R6PR61Ww92vK/8AxUkq3nATBoIToWKxCCadLzwgq8TlUKAssQRR7AEylstlpVJJp9NSqdTv9ycSCVyEPUIeIi8SB7Jc8KDf72MDqB54jcuwe6gAAiQQWRxeJD6fVMtkMrvdDkqgB9bN53MY/YsDNANvHMBoNBIPNpsN1NNVaDQaMpkMpSgHSW8cgFgCbeVyeTabrddr6gEspkXo+ZOGzskAMEo0Fo1Gg8Egkoi5XDVk/OQALMv+Bp5h0BJ++ASvAAAAAElFTkSuQmCC" />
+<img id="img4" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAIAAAAS8MqlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKsSURBVDhPPZNLSzJQEIaPVl66WFBZVBQqiVkQYrQoIoRo5T/IVYt2oeJKlxK1t6X6A7RNLVsUtE+LLgQFYraSgozIbqTfc5z6ZnGYMzPvnHcuR42OjrrdbpvN5vF4RkZGBgYGhoaGxsbGJiYmBgcHXS4X+vDw8PT0NKfT6ezt7e3v71eIxWKxWq1aa4nBYDCZTFiMRiNKT08Pxra2Njnxms1mHceFBIuLi36/nyAAHR0duAXAlbjZ2Vmfz8eVXIjCt7q6ure3d3Nzc35+HovFwCA6n1JQgl4ul6tWq5eXl5ubm2JX3d3dOzs7b29vry25vb1dWlr6paFUX19fIpFoNBpfX18fHx+FQmFlZQXmin6Q7OXlpdlsfn5+Pj4+hkIhaJMOAba/v48LJKnv7+/X19c1F/qzvb398/ODj9fu7u4CgQDvUBtuao7H43jr9Trn2dkZLdA0pNxMJnN8fHxwcBCJRLT1T6je4XDs7u4eHR3hDYfD0ifdEk6mt7y8PDk5qU1KdXZ20kCo2u12KmGYlDQzM4MuM9BBkKEMufwHaIdSuvpWakjhIgYLc9ZDE629vZ1T4jACRpFJ6DileFksOkbP7m/8KOJgXKILnhi8QkFODSNZV1eXLCFMMMojdF8CQFIY9bO6GiOysLCQTqeLxeLh4SFjkUpgQmLGMz8/n0qlrq6uTk5ONjY2AGuSZNra2mKU39/fDP3i4oI4SQcxnmVLmCdTrdVqp6eneDXM6/WyB0yT3cGHsra2xmswR8bHx7PZLCtCUlKXSiXoaBj1JJNJHGzW+/t7uVzmH1APSF6jPLjgen5+JmmlUmGApNMVsy/5fP7p6en6+joajUqTOMmKMjU1xf94eHigeBbtd0sQ3HzbYDAIYa4CkK7wIJvAlszNzYEHg8VisfwDvGYHjKS6kScAAAAASUVORK5CYII=" />
+<img id="img5" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAATCAIAAAAS8MqlAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKvSURBVDhPbZM9SOphFMb/ah9WpkUScSPCqCCXysEtp4aicDNCiIZQImsKBBdzEhzcWvqYTApFaJTc3IJmB4cgXNQKtbS0RO/9vb5d73LP8Pp6znnOec5z3r+CqVQqrVYrborCpb+/v6+vb2JiAn/XqdFouAwPD+P88eNSq9W/Osa9m43xlxJcZmZmpqenwQ8ODvb29orY1NTU6elpOp1OJpM+n0/CyMC40DYcDt/f3xMNBAI/RUG7XK58Pv/19fX+/p7JZDY2NmhOSU6j0bi7u1uv1z8+PjjL5fL6+rroNjAwcHV11Ww22+329/f35+en3++nFmPQDYbBYPD3XwNJVDQcGho6OTkhGxgBejocjpGREcFEUfR6/eHhIc63tzei0HG73QJGyeXl5dvb20Kh8Pj4eH5+LkdCnoWFBVTljEajLy8vT09PkUhkaWlJVlR0Ot3s7Cwjra6ujo+Pm0ymUCj08PCQSqW8Xi8eJlxbW4PF2NiYwWAQs1GP8pxdAff396HEtJVKBQ1WVlbQBj8nad2VKPxgkhtiXFxcMHqr1WKYWq2G6CKpUxFePwsAgJgdv0I9BIQYABRqNBr03NnZoYlMACPfxr+HwwxQ5242m+Px+PPzM7u6vr5GVbKJIhIXTJZQJicnkTUWiyGj3W6nEE/p4ODA6XQiBv3ZOIXOzs62tragJsYBDQ3ErVaraJDL5SwWCwEp0ujo6ObmJqFischus9mszWYT7OBwc3PDMNJKpdLx8THZwHp6epj88vKSdWPAwLMbAUMcnq/EyPe1t7cnybMfXglKAiCKPIjk8XgEjJjVamWzVJLvgA9CsO8sQyp0d3f3+voKz0QiMTc3J0oyAFPOz88fHR1tb28jhhCrI7QMIffi4iIUMB4TEJgLJGPQEyNVZv/XZA9hKtUfEbJFLQpP5/sAAAAASUVORK5CYII=" />
+<img id="img6" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAIAAAA2bnI+AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAALASURBVDhPTZO7S7JxFMefyt407CKmBKWBUUO66WANXpYaqv+gqTESx9aKMFpCInMoGqQc2oKGAhEUwcF06TIIORhBN9SKylcp38+vn8F7hofnOd9z+Z7vOY+C/fkxXtrb21tbW+U71tbW1tHRwWdLSwufBoMBlBecarVaRJAwOjq6tLS0vr6+sLAwODhIKGk8ZcTw8PDi4mIwGPT5fENDQ/ipolCG0KOjo8/Pz0ajcXNzs7W1JRPoRn5vb+/e3l6tViuVStVqdWNjA6ivr080HB8fLxQK9Xr9748lk0mbzQYs287OzmYyGYqSxvPi4mJqaqqzs1NkzszM3N3d4f34+CiXy+l0GhZarba7u5v8iYkJ6n5/f1OUgFwuNz09rdFogBSLxXJwcACZl5eXYrEYCARwiqqKQk/YhsPh19dXej48PICikEQF7PF4Tk5OLi8vV1ZWenp6mBOqUmeaW63WSCSSzWYZcmRkBEjSUcbGxqLRKGy/vr6oisKMAAwlyhN0eHhIQxihIv2p1dXVJWRwuVy3t7fv7+9MQnIsFjObzSSLqoridruvrq6oK405HQ4HySITjGVI6bDT09OBgYGmBooyOTnJFBLC0Nnr9Tbn7O/vh22lUgF4fHxcXl7+SREm52SfoDBCeVDomEwmAYOx0rOzs0Qisbm5KZj8LpMgmiP+7u4uCoVCIRbWHASYqZj77e3t+fmZrezs7IDpdDpQ5DUajRKFEVqsra3h5x5FMpfArgFY99PTExpIgE2S6XQ68/k810cAz1QqhaLNOe12OwoBYNxgPB5HIbiQplKpWPX19bVEIXV+fk4tOZECsePjY9bFSu7v7zkGnGCMygsi7e/vkwaKftvb23ial4Dp9Xr+Mk5kbm5O/ihyK1wCzUH9fv/q6ur8/Dxq4RcqyEMBlgbD/w2IABlDRQzx8Ov1+n+qnX8CUcL5QQAAAABJRU5ErkJggg==" />
+<br />
+<script>
+var lena="./lena.jpg";
+var img = new Image();
+img.src=lena;
+img.onload=function(){
+	let wi=img.width;
+	let hi=img.height;
+	let cvs=document.createElement("canvas");
+	cvs.width=wi;
+	cvs.height=hi;
+	document.body.appendChild(cvs);
+	var ctx=cvs.getContext("2d");
+	ctx.drawImage(img,0,0);
+	let wBlock=18;
+	let sizeBlock=wBlock*wBlock;
+	for(var y=0;y<hi;y+=wBlock){
+		for(var x=0;x<wi;x+=wBlock){
+			function getBlock(x,y){
+				let m=0.0;
+				var imgData=ctx.getImageData(x,y,wBlock,wBlock);
+				for(var j=0;j<wBlock;j++){
+					for(var i=0;i<wBlock;i++){
+						let ptr=(j*wBlock+i)*4;
+						let r=imgData.data[ptr+0];
+						let g=imgData.data[ptr+1];
+						let b=imgData.data[ptr+2];
+						let gray = 0.3 * r + 0.59 * g + 0.11 * b;
+						m+=gray;//灰度值累加
+					}
+				}
+				m=m/sizeBlock;//计算平均灰度
+				return m;
+			}
+			var m=getBlock(x,y);//获取图块
+			function gray2index(x){//根据灰度获取索引
+				if (0 <= x && x <= 41) return 1;
+				if (41 < x && x <= 83) return 2;
+				if (83 < x && x <= 124) return 3;
+				if (124 < x && x <= 165) return 4;
+				if (165 < x && x <= 206) return 5;
+				if (206 < x && x <= 247) return 6;
+				return 6;
+			}
+			index=gray2index(m);//获取色子索引
+			ctx.drawImage(document.getElementById(`img${index}`) ,0,0,wBlock,wBlock,x,y,wBlock,wBlock);
+		}
+	}
+}
+</script>
+</body>
+</html>
